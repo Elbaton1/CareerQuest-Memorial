@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About CareerQuest @ Memorial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background: url("https://www.transparenttextures.com/patterns/hexellence.png");
+        background-color: var(--secondary-color);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        color: var(--text-color);
+      }
+      .hero {
+        background: var(--hero-background) no-repeat center center/cover;
+        padding: 100px 20px;
+        text-align: center;
+        color: white;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+      }
+      .hero p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .about-section {
+        padding: 60px 20px;
+        background-color: #ffffff;
+        color: var(--text-color);
+      }
+      .about-section h2 {
+        margin-bottom: 40px;
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+      .about-section p.lead {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        color: var(--text-color);
+      }
+      .about-section p,
+      .about-section ul {
+        font-size: 1.1rem;
+        color: var(--text-color);
+      }
+      .about-section h3 {
+        margin-top: 40px;
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+      .about-section ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .about-section ul li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+      }
+      .about-section ul li::before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: #27ae60;
+      }
+      .highlight {
+        color: var(--primary-color);
+      }
+      .footer {
+        background-color: #34495e;
+        color: #ffffff;
+        padding: 20px 0;
+      }
+      .footer p {
+        margin: 0;
+      }
+      body.dark-mode {
+        background-color: var(--dark-background-color);
+        color: var(--dark-text-color);
+      }
+      body.dark-mode .hero {
+        background-color: var(--dark-primary-color);
+      }
+      body.dark-mode .about-section {
+        background-color: var(--dark-secondary-color);
+        color: var(--dark-text-color);
+      }
+      body.dark-mode .footer {
+        background-color: var(--dark-primary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-dark text-white text-center py-4">
+      <div id="timestamp" class="text-left pl-4"></div>
+      <h1>
+        <a href="index.html" class="header-link text-white"
+          >CareerQuest @ Memorial</a
+        >
+      </h1>
+      <nav class="nav justify-content-center sticky-top">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="#" id="dark-mode-toggle" class="nav-link">Dark Mode</a>
+      </nav>
+    </header>
+    <div class="hero">
+      <h1>Welcome to CareerQuest @ Memorial</h1>
+    </div>
+    <main class="container mt-4">
+      <section class="about-section text-center">
+        <div class="container">
+          <h2>About CareerQuest @ Memorial</h2>
+          <p class="lead">
+            Welcome to CareerQuest @ Memorial, the ultimate platform designed to
+            aggregate and simplify access to job listings from universities and
+            colleges across Canada.
+          </p>
+          <p>
+            Our goal is to provide a seamless experience for job seekers,
+            offering a centralized location to discover opportunities in
+            academia and beyond.
+          </p>
+          <h3>Our Mission</h3>
+          <p>
+            At CareerQuest @ Memorial, our mission is to bridge the gap between
+            job seekers and academic institutions by providing a comprehensive,
+            up-to-date, and user-friendly job listing platform. We strive to
+            empower individuals to find their ideal career opportunities
+            effortlessly.
+          </p>
+          <h3>Key Features</h3>
+          <ul>
+            <li>
+              <strong class="highlight">Comprehensive Listings:</strong> Access
+              job postings from multiple universities and colleges across Canada
+              in one place.
+            </li>
+            <li>
+              <strong class="highlight">User-Friendly Interface:</strong>
+              Navigate with ease through our intuitive and responsive design.
+            </li>
+            <li>
+              <strong class="highlight">Advanced Search:</strong> Utilize our
+              powerful search and filtering options to find the perfect job.
+            </li>
+            <li>
+              <strong class="highlight">Regular Updates:</strong> Stay informed
+              with the latest job opportunities through frequent updates.
+            </li>
+          </ul>
+          <h3>How It Works</h3>
+          <p>
+            CareerQuest @ Memorial uses advanced web scraping techniques to
+            gather job listings from various university and college websites.
+            The data is then processed and displayed on our platform, ensuring
+            you have access to the latest job opportunities. Our system is built
+            with scalability and user experience in mind, utilizing modern web
+            development technologies.
+          </p>
+          <h3>Technologies and Tools</h3>
+          <ul>
+            <li>
+              <strong class="highlight">Front-End:</strong> HTML, CSS,
+              JavaScript for crafting a responsive and interactive user
+              interface.
+            </li>
+            <li>
+              <strong class="highlight">Back-End:</strong> Python and Django for
+              robust and scalable server-side operations.
+            </li>
+            <li>
+              <strong class="highlight">Design:</strong> Bootstrap for a sleek
+              and responsive design across all devices.
+            </li>
+            <li>
+              <strong class="highlight">Data Handling:</strong> Selenium for web
+              scraping and gathering job data efficiently.
+            </li>
+            <li>
+              <strong class="highlight">Version Control:</strong> Git & GitHub
+              for collaborative development and version management.
+            </li>
+          </ul>
+          <h3>Get In Touch</h3>
+          <p>
+            Have questions or need support? Feel free to contact us through our
+            <a href="contact.html" class="highlight">Contact page</a>. We're
+            here to help you navigate your career journey.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer text-center py-4 mt-auto">
+      <div class="container">
+        <p>&copy; 2024 CareerQuest @ Memorial. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
