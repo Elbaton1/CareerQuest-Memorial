@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function fetchJobs() {
-  fetch("/api/jobs")
+  fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
       displayJobs(data.jobs);
@@ -53,12 +53,16 @@ function displayJobs(jobs) {
     const jobElement = document.createElement("div");
     jobElement.classList.add("job-listing", "col-md-4");
     jobElement.innerHTML = `
-      <h2><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h2>
-      <p>${job.school}</p>
-      <p>${job.date}</p>
-      <div class="details">
-        <span>${job.school}</span>
-        <a href="${job.link}" target="_blank">Read More</a>
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h5>
+          <p class="card-text">${job.school}</p>
+          <p class="card-text">${job.date}</p>
+          <div class="details">
+            <span>${job.school}</span>
+            <a href="${job.link}" target="_blank">Read More</a>
+          </div>
+        </div>
       </div>
     `;
     jobListings.appendChild(jobElement);
@@ -66,7 +70,7 @@ function displayJobs(jobs) {
 }
 
 function populateFilter() {
-  fetch("/api/jobs")
+  fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
       const schools = Array.from(new Set(data.jobs.map((job) => job.school)));
@@ -89,7 +93,7 @@ function searchJobs() {
   const searchInput = document.getElementById("search").value.toLowerCase();
   const filterSchool = document.getElementById("filter-school").value;
 
-  fetch("/api/jobs")
+  fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
       let filteredJobs = data.jobs.filter((job) => {
@@ -112,7 +116,7 @@ function filterJobs() {
   const filterSchool = document.getElementById("filter-school").value;
   const searchInput = document.getElementById("search").value.toLowerCase();
 
-  fetch("/api/jobs")
+  fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
       let filteredJobs = data.jobs.filter((job) => {
@@ -154,7 +158,7 @@ function lazyLoadJobs() {
 }
 
 function displayTimestamp() {
-  fetch("/api/jobs")
+  fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
       const lastUpdated = new Date(data.last_updated);
@@ -182,7 +186,7 @@ function formatDate(date) {
 }
 
 function fetchScrapingLog() {
-  fetch("/api/scraping-log")
+  fetch("Beans/scraping_log.json")
     .then((response) => response.json())
     .then((data) => {
       displayScrapingLog(data);
