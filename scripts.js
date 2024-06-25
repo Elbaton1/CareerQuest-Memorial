@@ -53,16 +53,12 @@ function displayJobs(jobs) {
     const jobElement = document.createElement("div");
     jobElement.classList.add("job-listing", "col-md-4");
     jobElement.innerHTML = `
-      <div class="card h-100">
-        <div class="card-body">
-          <h5 class="card-title"><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h5>
-          <p class="card-text">${job.school}</p>
-          <p class="card-text">${job.date}</p>
-          <div class="details">
-            <span>${job.school}</span>
-            <a href="${job.link}" target="_blank">Read More</a>
-          </div>
-        </div>
+      <h2><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h2>
+      <p>${job.school}</p>
+      <p>${job.date}</p>
+      <div class="details">
+        <span>${job.school}</span>
+        <a href="${job.link}" target="_blank">Read More</a>
       </div>
     `;
     jobListings.appendChild(jobElement);
