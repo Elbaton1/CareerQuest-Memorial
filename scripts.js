@@ -55,7 +55,7 @@ function displayJobs(jobs) {
     jobElement.innerHTML = `
       <h2><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h2>
       <p>${job.school}</p>
-      <p>Posted on: ${job.date_posted}</p>
+      <p>${job.date}</p>
       <div class="details">
         <span>${job.school}</span>
         <a href="${job.link}" target="_blank">Read More</a>
