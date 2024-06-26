@@ -541,16 +541,16 @@
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/109?language=en"
         },
         {
-            "title": "Associate Professor, Clinical Psychology - Edmonton AB",
-            "school": "Concordia University of Edmonton",
-            "date": "No Date Provided",
-            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/98?language=en"
-        },
-        {
             "title": "Assistant Professor, Information Technology - Edmonton AB",
             "school": "Concordia University of Edmonton",
             "date": "No Date Provided",
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/84?language=en"
+        },
+        {
+            "title": "Associate Professor, Clinical Psychology - Edmonton AB",
+            "school": "Concordia University of Edmonton",
+            "date": "No Date Provided",
+            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/98?language=en"
         },
         {
             "title": "Administrative Assistant, Campus Life Programs (10 Month Term) - Edmonton AB",
@@ -577,28 +577,28 @@
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/112?language=en"
         },
         {
-            "title": "Student Help - International Office - Edmonton AB",
-            "school": "Concordia University of Edmonton",
-            "date": "No Date Provided",
-            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/122?language=en"
-        },
-        {
             "title": "Career Planning Advisor - Edmonton AB",
             "school": "Concordia University of Edmonton",
             "date": "No Date Provided",
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/123?language=en"
         },
         {
-            "title": "Accounts Payable Coordinator - Edmonton AB",
+            "title": "Student Help - International Office - Edmonton AB",
             "school": "Concordia University of Edmonton",
             "date": "No Date Provided",
-            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/125?language=en"
+            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/122?language=en"
         },
         {
             "title": "Women's Basketball Head Coach - Edmonton AB",
             "school": "Concordia University of Edmonton",
             "date": "No Date Provided",
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/124?language=en"
+        },
+        {
+            "title": "Accounts Payable Coordinator - Edmonton AB",
+            "school": "Concordia University of Edmonton",
+            "date": "No Date Provided",
+            "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/125?language=en"
         },
         {
             "title": "Student Marketing Assistant - Edmonton AB",
@@ -625,5 +625,5 @@
             "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/128?language=en"
         }
     ],
-    "last_updated": "2024-06-25T20:24:26.128285"
+    "last_updated": "2024-06-25T23:24:25.161149"
 }
