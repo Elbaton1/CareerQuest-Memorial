@@ -55,7 +55,7 @@ function displayJobs(jobs) {
     jobElement.innerHTML = `
       <h2><a href="${job.link}" target="_blank" data-toggle="tooltip" title="Click to view job details">${job.title}</a></h2>
       <p>${job.school}</p>
-      <p>${job.date}</p>
+      <p>Posted on: ${job.date}</p>
       <div class="details">
         <span>${job.school}</span>
         <a href="${job.link}" target="_blank">Read More</a>
@@ -157,11 +157,11 @@ function displayTimestamp() {
   fetch("Beans/job_listings.json")
     .then((response) => response.json())
     .then((data) => {
-      const lastUpdated = new Date(data.last_updated);
+      const lastUpdated = new Date(data.timestamp);
       const formattedDate = formatDate(lastUpdated);
       document.getElementById(
         "timestamp"
-      ).innerText = `Last updated: ${formattedDate}`;
+      ).innerText = `Jobs last added on: ${formattedDate}`;
     })
     .catch((error) => {
       console.error("Error fetching last update timestamp:", error);
