@@ -51,7 +51,8 @@ def scrape_athabasca():
         for element in job_elements:
             title = element.text
             link = element.get_attribute("href")
-            job = {"title": title, "school": "Athabasca University", "date": datetime.now().strftime("%Y-%m-%d"), "link": link}
+            date_posted = element.find_element(By.XPATH, "DATE_POSTED_SELECTOR").text  # Update with the actual selector
+            job = {"title": title, "school": "Athabasca University", "date_posted": date_posted, "link": link}
             jobs.append(job)
         
         if not job_elements:
@@ -93,7 +94,8 @@ def scrape_mtroyal():
         for element in job_elements:
             title = element.text
             link = element.get_attribute("href")
-            job = {"title": title, "school": "Mount Royal University", "date": datetime.now().strftime("%Y-%m-%d"), "link": link}
+            date_posted = element.find_element(By.XPATH, "DATE_POSTED_SELECTOR").text  # Update with the actual selector
+            job = {"title": title, "school": "Mount Royal University", "date_posted": date_posted, "link": link}
             jobs.append(job)
         
         if not job_elements:
@@ -126,7 +128,8 @@ def scrape_memorial():
             for element in job_elements:
                 title = element.text
                 link = element.get_attribute("href")
-                job = {"title": title, "school": "Memorial University", "date": datetime.now().strftime("%Y-%m-%d"), "link": link}
+                date_posted = element.find_element(By.XPATH, "DATE_POSTED_SELECTOR").text  # Update with the actual selector
+                job = {"title": title, "school": "Memorial University", "date_posted": date_posted, "link": link}
                 jobs.append(job)
             try:
                 next_button = driver.find_element(By.LINK_TEXT, 'Next')
@@ -137,7 +140,6 @@ def scrape_memorial():
     logging.info(f"Found {len(jobs)} jobs at Memorial University")
     return jobs
 
-
 def scrape_macewan_rss():
     logging.info("Scraping MacEwan University via RSS")
     rss_url = "https://www.macewan.ca/rss/index.php?feed=all-careers"
@@ -147,7 +149,7 @@ def scrape_macewan_rss():
         title = entry.title
         link = entry.link
         date = entry.get("published", "No Date Provided")
-        job = {"title": title, "school": "MacEwan University", "date": date, "link": link}
+        job = {"title": title, "school": "MacEwan University", "date_posted": date, "link": link}
         jobs.append(job)
     logging.info(f"Found {len(jobs)} jobs at MacEwan University via RSS")
     return jobs
@@ -161,7 +163,7 @@ def scrape_concordia():
         title = entry.title
         link = entry.link
         date = entry.get("published", "No Date Provided")
-        job = {"title": title, "school": "Concordia University of Edmonton", "date": date, "link": link}
+        job = {"title": title, "school": "Concordia University of Edmonton", "date_posted": date, "link": link}
         jobs.append(job)
     logging.info(f"Found {len(jobs)} jobs at Concordia University of Edmonton via RSS")
     return jobs
