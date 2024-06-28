@@ -42,11 +42,10 @@ The contact page includes a form where users can enter their name, email, and me
 - **Completed By**: Michael O'Brien (completed individually)
 - **Assignment**: Sprint 1 Project 
 
-## License
 
-This project is licensed under the MIT License.
 
 ---
 
-Thank you for reviewing CareerQuest. I hope you find the project meets all the requirements and showcases my skills effectively.
+Thank you I hope you find the project meets all the requirements and showcases my skills :)
+
 
