@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact CareerQuest @ Memorial</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-white text-center py-4">
+      <div id="timestamp" class="text-left pl-4"></div>
+      <h1>
+        <a href="index.html" class="header-link text-white"
+          >CareerQuest @ Memorial</a
+        >
+      </h1>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" id="dark-mode-toggle" class="nav-link">Dark Mode</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-4">
+      <section class="contact-section text-center">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <p class="lead">
+            We'd love to hear from you! Whether you have a question, feedback,
+            or need support, feel free to get in touch with us.
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="about.html" class="text-white">About</a></li>
+              <li><a href="contact.html" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>Email: info@careerquest.com</p>
+            <p>Phone: +1 (234) 567-890</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <p>&copy; 2024 CareerQuest @ Memorial. All rights reserved.</p>
+      </div>
+    </footer>
+    <button id="back-to-top" title="Back to top">&uarr;</button>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
