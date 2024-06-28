@@ -658,5 +658,128 @@
         "removed_jobs_count": 0,
         "new_jobs": [],
         "removed_jobs": []
+    },
+    {
+        "timestamp": "2024-06-28T03:27:31.520631",
+        "new_jobs_count": 6,
+        "removed_jobs_count": 13,
+        "new_jobs": [
+            {
+                "title": "Casual Academic Advising Registration Peer",
+                "school": "Mount Royal University",
+                "date": "2024-06-28",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2819"
+            },
+            {
+                "title": "Credit-Free Instructor, Continuing Education",
+                "school": "Mount Royal University",
+                "date": "2024-06-28",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2820"
+            },
+            {
+                "title": "Casual Academic Advising Assistant",
+                "school": "Mount Royal University",
+                "date": "2024-06-28",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2818"
+            },
+            {
+                "title": "INTERMEDIATE SECRETARY (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2024-06-28",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5376"
+            },
+            {
+                "title": "ADMINISTRATIVE SUPPORT CANDIDATE LIST FOR SHORT-TERM CONTRACTS AND TEMPORARY POSITIONS (Labrador Campus)",
+                "school": "Memorial University",
+                "date": "2024-06-28",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5145"
+            },
+            {
+                "title": "Fitness Programmer (18 Month Term) - Campus Services",
+                "school": "MacEwan University",
+                "date": "No Date Provided",
+                "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.06.194"
+            }
+        ],
+        "removed_jobs": [
+            {
+                "title": "Individualized Study Tutor - INST 203",
+                "school": "Athabasca University",
+                "date": "2024-06-26",
+                "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2763"
+            },
+            {
+                "title": "Individualized Study Tutor - ENGL 351, 361,458",
+                "school": "Athabasca University",
+                "date": "2024-06-26",
+                "link": "https://athabascau.acquiretm.com/job_details_clean.aspx?id=2791"
+            },
+            {
+                "title": "Public Services Assistant, Maker Studio",
+                "school": "Mount Royal University",
+                "date": "2024-06-26",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2806"
+            },
+            {
+                "title": "Assistant Professor, School of Nursing & Midwifery",
+                "school": "Mount Royal University",
+                "date": "2024-06-26",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2752"
+            },
+            {
+                "title": "Assistant Professor, Creative Writing",
+                "school": "Mount Royal University",
+                "date": "2024-06-26",
+                "link": "https://mtroyalca.hua.hrsmart.com/hr/ats/Posting/view/2649"
+            },
+            {
+                "title": "ADMINISTRATIVE STAFF SPECIALIST II (BAND LEVEL 7)",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5334"
+            },
+            {
+                "title": "CLERK III (BAND LEVEL 4)",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5346"
+            },
+            {
+                "title": "PROCUREMENT AND COMPLIANCE OFFICER (BAND LEVEL 6)",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5348"
+            },
+            {
+                "title": "NURSING LABORATORY INSTRUCTOR (BAND LEVEL 10)",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5332"
+            },
+            {
+                "title": "STAGE MANAGER (BAND LEVEL 8)",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=5330"
+            },
+            {
+                "title": "LABORATORY INSTRUCTOR",
+                "school": "Memorial University",
+                "date": "2024-06-26",
+                "link": "https://www.mun.ca/hr/careers/employment-opportunity/?id=2003"
+            },
+            {
+                "title": "Counsellor I - Wellness and Psychological Services, Student Affairs",
+                "school": "MacEwan University",
+                "date": "No Date Provided",
+                "link": "https://www.macewan.ca/about-macewan/careers/opportunities/postings/?competition=24.05.167"
+            },
+            {
+                "title": "Assistant Professor - Information Systems Assurance Management (ISAM) - Edmonton AB",
+                "school": "Concordia University of Edmonton",
+                "date": "No Date Provided",
+                "link": "https://concordiaedmonton.startdate.ca/#/career/info/public/87?language=en"
+            }
+        ]
     }
 ]
